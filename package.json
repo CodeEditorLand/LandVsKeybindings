@@ -1,22 +1,26 @@
 {
     "name": "vs-keybindings",
     "displayName": "Visual Studio Keymap",
-    "version": "0.2.1",
     "description": "Popular Visual Studio keybindings for VS Code.",
+    "version": "0.2.1",
+    "publisher": "ms-vscode",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
     "categories": [
         "Keymaps"
     ],
     "keywords": [
         "keymap"
     ],
-    "bugs": {
-        "url": "https://github.com/Microsoft/vscode-vs-keybindings/issues"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Microsoft/vscode-vs-keybindings.git"
     },
-    "publisher": "ms-vscode",
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-vs-keybindings/issues"
+    },
+    "icon": "visualstudio-keyboard.png",
     "contributes": {
         "keybindings": [
             {
@@ -256,9 +260,6 @@
                 "when": "editorTextFocus && !editorReadonly"
             }
         ]
-    },
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-    "icon": "visualstudio-keyboard.png"
+
+    }
 }
