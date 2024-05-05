@@ -1,0 +1,277 @@
+{
+	"name": "vs-keybindings",
+	"displayName": "Visual Studio Keymap",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Popular Visual Studio keybindings for VS Code.",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandVSKeybindings#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandVSKeybindings/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandVSKeybindings.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"contributes": {
+		"keybindings": [
+			{
+				"command": "workbench.action.tasks.build",
+				"key": "ctrl+shift+b"
+			},
+			{
+				"command": "workbench.debug.viewlet.action.addFunctionBreakpointAction",
+				"key": "ctrl+b"
+			},
+			{
+				"command": "workbench.debug.viewlet.action.removeAllBreakpoints",
+				"key": "ctrl+shift+f9"
+			},
+			{
+				"command": "workbench.action.debug.restart",
+				"key": "ctrl+shift+f5",
+				"when": "inDebugMode"
+			},
+			{
+				"command": "editor.debug.action.runToCursor",
+				"key": "ctrl+f10",
+				"when": "inDebugMode"
+			},
+			{
+				"command": "editor.action.formatDocument",
+				"key": "ctrl+k ctrl+d"
+			},
+			{
+				"command": "insertSnippet",
+				"key": "ctrl+k ctrl+x"
+			},
+			{
+				"command": "editor.action.deleteLines",
+				"key": "ctrl+shift+l",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "editor.action.clipboardCutAction",
+				"key": "ctrl+l",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "workbench.action.files.openFileFolder",
+				"key": "ctrl+shift+g"
+			},
+			{
+				"command": "editor.action.referenceSearch.trigger",
+				"key": "alt+f12"
+			},
+			{
+				"command": "redo",
+				"key": "ctrl+y"
+			},
+			{
+				"command": "editor.action.smartSelect.expand",
+				"key": "ctrl+w",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "editor.action.addSelectionToNextFindMatch",
+				"key": "shift+alt+.",
+				"when": "editorFocus"
+			},
+			{
+				"command": "editor.action.triggerSuggest",
+				"key": "ctrl+alt+space",
+				"when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "undo",
+				"key": "alt+space"
+			},
+			{
+				"command": "deleteWordEndRight",
+				"key": "ctrl+delete",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "deleteWordStartLeft",
+				"key": "ctrl+backspace",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "workbench.action.files.saveAll",
+				"key": "ctrl+shift+s"
+			},
+			{
+				"command": "workbench.action.output.toggleOutput",
+				"key": "ctrl+alt+o"
+			},
+			{
+				"command": "workbench.view.explorer",
+				"key": "ctrl+alt+l"
+			},
+			{
+				"command": "editor.action.rename",
+				"key": "ctrl+r ctrl+r",
+				"when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "editor.action.toggleRenderWhitespace",
+				"key": "ctrl+r ctrl+w"
+			},
+			{
+				"command": "editor.foldAll",
+				"key": "ctrl+k ctrl+m",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "workbench.action.navigateBack",
+				"key": "ctrl+-"
+			},
+			{
+				"command": "workbench.action.navigateForward",
+				"key": "ctrl+shift+-"
+			},
+			{
+				"command": "workbench.action.quickOpen",
+				"key": "ctrl+,"
+			},
+			{
+				"command": "cursorColumnSelectDown",
+				"key": "shift+alt+down",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorColumnSelectLeft",
+				"key": "shift+alt+left",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorColumnSelectPageDown",
+				"key": "shift+alt+pagedown",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorColumnSelectPageUp",
+				"key": "shift+alt+pageup",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorColumnSelectRight",
+				"key": "shift+alt+right",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorColumnSelectUp",
+				"key": "shift+alt+up",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "workbench.action.toggleZenMode",
+				"key": "shift+alt+enter"
+			},
+			{
+				"command": "workbench.action.closeActiveEditor",
+				"key": "ctrl+f4"
+			},
+			{
+				"command": "editor.action.copyLinesDownAction",
+				"key": "ctrl+d"
+			},
+			{
+				"command": "cursorWordStartRight",
+				"key": "ctrl+right",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "cursorWordStartRightSelect",
+				"key": "ctrl+shift+right",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "editor.action.insertLineBefore",
+				"key": "ctrl+enter",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "editor.action.insertLineAfter",
+				"key": "shift+enter",
+				"when": "editorTextFocus && !editorReadonly"
+			},
+			{
+				"command": "editor.action.wordHighlight.next",
+				"key": "ctrl+shift+down",
+				"when": "editorTextFocus && hasWordHighlights"
+			},
+			{
+				"command": "editor.action.wordHighlight.prev",
+				"key": "ctrl+shift+up",
+				"when": "editorTextFocus && hasWordHighlights"
+			},
+			{
+				"command": "editor.action.replaceAll",
+				"key": "alt+a",
+				"when": "editorFocus && findWidgetVisible"
+			},
+			{
+				"command": "search.action.replaceAll",
+				"key": "alt+a",
+				"when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+			},
+			{
+				"command": "search.action.replaceAllInFile",
+				"key": "alt+a",
+				"when": "fileMatchFocus && replaceActive && searchViewletVisible"
+			},
+			{
+				"command": "search.action.replaceAllInFolder",
+				"key": "alt+a",
+				"when": "folderMatchFocus && replaceActive && searchViewletVisible"
+			},
+			{
+				"command": "editor.action.replaceOne",
+				"key": "alt+r",
+				"when": "editorFocus && findWidgetVisible"
+			},
+			{
+				"command": "search.action.replace",
+				"key": "alt+r",
+				"when": "matchFocus && replaceActive && searchViewletVisible"
+			},
+			{
+				"command": "toggleSearchRegex",
+				"key": "alt+e",
+				"when": "searchInputBoxFocus && searchViewletVisible"
+			},
+			{
+				"command": "toggleFindRegex",
+				"key": "alt+e",
+				"when": "editorFocus"
+			},
+			{
+				"command": "deleteWordStartRight",
+				"key": "ctrl+delete",
+				"when": "editorTextFocus && !editorReadonly"
+			}
+		]
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "visualstudio-keyboard.png"
+}
