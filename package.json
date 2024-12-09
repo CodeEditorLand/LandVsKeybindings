@@ -239,7 +239,9 @@
 			}
 		]
 	},
+	"dependencies": {},
 	"description": "Popular Visual Studio keybindings for VS Code.",
+	"devDependencies": {},
 	"displayName": "Visual Studio Keymap",
 	"icon": "visualstudio-keyboard.png",
 	"name": "vs-keybindings"
