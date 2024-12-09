@@ -1,4 +1,7 @@
 {
+	"name": "vs-keybindings",
+	"displayName": "Visual Studio Keymap",
+	"description": "Popular Visual Studio keybindings for VS Code.",
 	"contributes": {
 		"keybindings": [
 			{
@@ -240,9 +243,6 @@
 		]
 	},
 	"dependencies": {},
-	"description": "Popular Visual Studio keybindings for VS Code.",
 	"devDependencies": {},
-	"displayName": "Visual Studio Keymap",
-	"icon": "visualstudio-keyboard.png",
-	"name": "vs-keybindings"
+	"icon": "visualstudio-keyboard.png"
 }
